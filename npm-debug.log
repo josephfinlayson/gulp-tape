@@ -1,0 +1,176 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/joe/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/home/joe/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'save-dev',
+1 verbose cli   'tap-spec' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json assert@1.1.2 assert is also the name of a node core module.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'save-dev', null ]
+7 verbose cache add name=undefined spec="save-dev" args=["save-dev",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'save-dev',
+8 verbose parsed url   path: 'save-dev',
+8 verbose parsed url   href: 'save-dev' }
+9 verbose cache add [ 'tap-spec', null ]
+10 verbose cache add name=undefined spec="tap-spec" args=["tap-spec",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'tap-spec',
+11 verbose parsed url   path: 'tap-spec',
+11 verbose parsed url   href: 'tap-spec' }
+12 silly lockFile 80ff035d-save-dev save-dev
+13 verbose lock save-dev /home/joe/.npm/80ff035d-save-dev.lock
+14 silly lockFile 8101fb00-tap-spec tap-spec
+15 verbose lock tap-spec /home/joe/.npm/8101fb00-tap-spec.lock
+16 silly lockFile 80ff035d-save-dev save-dev
+17 silly lockFile 80ff035d-save-dev save-dev
+18 silly lockFile 8101fb00-tap-spec tap-spec
+19 silly lockFile 8101fb00-tap-spec tap-spec
+20 verbose addNamed [ 'save-dev', '' ]
+21 verbose addNamed [ null, '*' ]
+22 silly lockFile e7602a59-save-dev save-dev@
+23 verbose lock save-dev@ /home/joe/.npm/e7602a59-save-dev.lock
+24 verbose addNamed [ 'tap-spec', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 1bd4713c-tap-spec tap-spec@
+27 verbose lock tap-spec@ /home/joe/.npm/1bd4713c-tap-spec.lock
+28 silly addNameRange { name: 'save-dev', range: '*', hasData: false }
+29 silly addNameRange { name: 'tap-spec', range: '*', hasData: false }
+30 verbose request where is /save-dev
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id d12cddd41203240c
+33 verbose url raw /save-dev
+34 verbose url resolving [ 'https://registry.npmjs.org/', './save-dev' ]
+35 verbose url resolved https://registry.npmjs.org/save-dev
+36 verbose request where is https://registry.npmjs.org/save-dev
+37 info trying registry request attempt 1 at 22:59:42
+38 http GET https://registry.npmjs.org/save-dev
+39 verbose request where is /tap-spec
+40 verbose request registry https://registry.npmjs.org/
+41 verbose url raw /tap-spec
+42 verbose url resolving [ 'https://registry.npmjs.org/', './tap-spec' ]
+43 verbose url resolved https://registry.npmjs.org/tap-spec
+44 verbose request where is https://registry.npmjs.org/tap-spec
+45 info trying registry request attempt 1 at 22:59:42
+46 verbose etag "6FA96DOUM7LV7CNBSX2CZLM3B"
+47 http GET https://registry.npmjs.org/tap-spec
+48 http 200 https://registry.npmjs.org/tap-spec
+49 silly registry.get cb [ 200,
+49 silly registry.get   { date: 'Thu, 11 Dec 2014 22:59:42 GMT',
+49 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 silly registry.get     etag: '"BZZ3IAZQIZA8KJSVXDMV7TXBA"',
+49 silly registry.get     'content-type': 'application/json',
+49 silly registry.get     'cache-control': 'max-age=60',
+49 silly registry.get     'content-length': '18997',
+49 silly registry.get     'accept-ranges': 'bytes',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     age: '0',
+49 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
+49 silly registry.get     'x-cache': 'MISS',
+49 silly registry.get     'x-cache-hits': '0',
+49 silly registry.get     'x-timer': 'S1418338782.424851,VS0,VE349',
+49 silly registry.get     vary: 'Accept',
+49 silly registry.get     'keep-alive': 'timeout=10, max=50',
+49 silly registry.get     connection: 'Keep-Alive' } ]
+50 silly addNameRange number 2 { name: 'tap-spec', range: '*', hasData: true }
+51 silly addNameRange versions [ 'tap-spec',
+51 silly addNameRange   [ '0.0.1',
+51 silly addNameRange     '0.1.1',
+51 silly addNameRange     '0.1.2',
+51 silly addNameRange     '0.1.3',
+51 silly addNameRange     '0.1.4',
+51 silly addNameRange     '0.1.5',
+51 silly addNameRange     '0.1.6',
+51 silly addNameRange     '0.1.7',
+51 silly addNameRange     '0.1.8',
+51 silly addNameRange     '0.1.9',
+51 silly addNameRange     '0.2.0',
+51 silly addNameRange     '0.2.1',
+51 silly addNameRange     '1.0.0',
+51 silly addNameRange     '1.0.1',
+51 silly addNameRange     '2.0.0',
+51 silly addNameRange     '2.1.0',
+51 silly addNameRange     '2.1.1' ] ]
+52 verbose addNamed [ 'tap-spec', '2.1.1' ]
+53 verbose addNamed [ '2.1.1', '2.1.1' ]
+54 silly lockFile 80375ef7-tap-spec-2-1-1 tap-spec@2.1.1
+55 verbose lock tap-spec@2.1.1 /home/joe/.npm/80375ef7-tap-spec-2-1-1.lock
+56 silly lockFile c6d17045--org-tap-spec-tap-spec-2-1-1-tgz https://registry.npmjs.org/tap-spec/-/tap-spec-2.1.1.tgz
+57 verbose lock https://registry.npmjs.org/tap-spec/-/tap-spec-2.1.1.tgz /home/joe/.npm/c6d17045--org-tap-spec-tap-spec-2-1-1-tgz.lock
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/tap-spec/-/tap-spec-2.1.1.tgz',
+58 verbose addRemoteTarball   'ff30dfccd16e486340aaea6f6c91b3f4e2422a1b' ]
+59 info retry fetch attempt 1 at 22:59:42
+60 verbose fetch to= /tmp/npm-29010-qt01Ummv/registry.npmjs.org/tap-spec/-/tap-spec-2.1.1.tgz
+61 http GET https://registry.npmjs.org/tap-spec/-/tap-spec-2.1.1.tgz
+62 http 404 https://registry.npmjs.org/save-dev
+63 verbose headers { date: 'Thu, 11 Dec 2014 22:59:43 GMT',
+63 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+63 verbose headers   'content-type': 'application/json',
+63 verbose headers   'cache-control': 'max-age=0',
+63 verbose headers   'content-length': '52',
+63 verbose headers   'accept-ranges': 'bytes',
+63 verbose headers   via: '1.1 varnish',
+63 verbose headers   age: '0',
+63 verbose headers   'x-served-by': 'cache-lcy1129-LCY',
+63 verbose headers   'x-cache': 'MISS',
+63 verbose headers   'x-cache-hits': '0',
+63 verbose headers   'x-timer': 'S1418338782.417986,VS0,VE614',
+63 verbose headers   'keep-alive': 'timeout=10, max=50',
+63 verbose headers   connection: 'Keep-Alive' }
+64 silly registry.get cb [ 404,
+64 silly registry.get   { date: 'Thu, 11 Dec 2014 22:59:43 GMT',
+64 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+64 silly registry.get     'content-type': 'application/json',
+64 silly registry.get     'cache-control': 'max-age=0',
+64 silly registry.get     'content-length': '52',
+64 silly registry.get     'accept-ranges': 'bytes',
+64 silly registry.get     via: '1.1 varnish',
+64 silly registry.get     age: '0',
+64 silly registry.get     'x-served-by': 'cache-lcy1129-LCY',
+64 silly registry.get     'x-cache': 'MISS',
+64 silly registry.get     'x-cache-hits': '0',
+64 silly registry.get     'x-timer': 'S1418338782.417986,VS0,VE614',
+64 silly registry.get     'keep-alive': 'timeout=10, max=50',
+64 silly registry.get     connection: 'Keep-Alive' } ]
+65 silly lockFile e7602a59-save-dev save-dev@
+66 silly lockFile e7602a59-save-dev save-dev@
+67 http 200 https://registry.npmjs.org/tap-spec/-/tap-spec-2.1.1.tgz
+68 silly lockFile c6d17045--org-tap-spec-tap-spec-2-1-1-tgz https://registry.npmjs.org/tap-spec/-/tap-spec-2.1.1.tgz
+69 silly lockFile c6d17045--org-tap-spec-tap-spec-2-1-1-tgz https://registry.npmjs.org/tap-spec/-/tap-spec-2.1.1.tgz
+70 silly lockFile 80375ef7-tap-spec-2-1-1 tap-spec@2.1.1
+71 silly lockFile 80375ef7-tap-spec-2-1-1 tap-spec@2.1.1
+72 silly lockFile 1bd4713c-tap-spec tap-spec@
+73 silly lockFile 1bd4713c-tap-spec tap-spec@
+74 error 404 404 Not Found: save-dev
+74 error 404
+74 error 404 'save-dev' is not in the npm registry.
+74 error 404 You should bug the author to publish it
+74 error 404 It was specified as a dependency of 'gulp-tape'
+74 error 404
+74 error 404 Note that you can also install from a
+74 error 404 tarball, folder, or http url, or git url.
+75 error System Linux 3.13.0-43-generic
+76 error command "/home/joe/.nvm/v0.10.33/bin/node" "/home/joe/.nvm/v0.10.33/bin/npm" "install" "save-dev" "tap-spec"
+77 error cwd /home/joe/www/gulp-tape
+78 error node -v v0.10.33
+79 error npm -v 1.4.28
+80 error code E404
+81 verbose exit [ 1, true ]

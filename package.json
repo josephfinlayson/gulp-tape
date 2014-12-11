@@ -1,0 +1,41 @@
+{
+  "name": "gulp-tape",
+  "version": "0.0.1",
+  "description": "Allows tape tests to be piped through to tape using gulp",
+  "main": "index.js",
+  "dependencies": {
+    "tape": "~2.4.0"
+  },
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git:///github.com/josephfinlayson/ gulp tape.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josephfinlayson/ gulp tape/issues"
+  },
+  "homepage": "https://github.com/josephfinlayson/ gulp tape",
+  "keywords": [
+    "tape",
+    "gulp"
+  ],
+  "author": {
+    "name": "Joseph Finlaysom",
+    "email": "joseph.finlayson+npm@gmail.com"
+  },
+  "license": "MIT",
+  "maintainers": [],
+  "directories": {},
+  "devDependencies": {
+    "assert": "^1.1.2",
+    "event-stream": "^3.1.7",
+    "gulp": "^3.8.10",
+    "gulp-util": "^3.0.1",
+    "mocha": "^2.0.1",
+    "tap-spec": "^2.1.1",
+    "through2": "^0.6.3",
+    "vinyl": "^0.4.6"
+  }
+}
