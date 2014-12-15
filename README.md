@@ -1,3 +1,3 @@
 # Gulp Tape
 
-Integrates substack's [https://github.com/substack/tape] (tape) with Gulp. Pre-release! Feedback welcomed
+Integrates substack's [tape] (https://github.com/substack/tape) with Gulp. Pre-release! Feedback welcomed
